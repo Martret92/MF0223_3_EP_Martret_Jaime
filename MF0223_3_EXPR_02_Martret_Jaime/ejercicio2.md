@@ -131,7 +131,7 @@ mv dev_environment/backend/config/config.json dev_environment/backend/app/
 **7.1** `deploy.sh` → ejecutable solo para el propietario:
 
 ```bash
-chmod 700 dev_environment/scripts/deploy.sh
+chmod 100 dev_environment/scripts/deploy.sh
 ```
 
 **7.2** `server.js` → lectura/escritura propietario, solo lectura grupo:
