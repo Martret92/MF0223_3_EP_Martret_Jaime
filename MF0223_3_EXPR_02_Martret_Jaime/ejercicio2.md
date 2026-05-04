@@ -201,3 +201,25 @@ pwd
 ```bash
 history
 ```
+
+---
+
+## 10. Informe final
+
+Una vez completados todos los pasos del ejercicio, el entorno de desarrollo queda correctamente configurado y operativo.
+
+### Resumen de tareas realizadas
+
+- Se ha creado la estructura de directorios completa para un proyecto web con frontend, backend, base de datos, documentación y scripts.
+- Se han inicializado todos los archivos necesarios en sus rutas correctas.
+- Se han editado los archivos principales con el editor nano.
+- Se ha verificado la estructura y los archivos del proyecto mediante comandos de auditoría.
+- Se ha creado una copia de seguridad (backup/) del frontend y de server.js.
+- Se han reorganizado archivos: main.css movido a frontend/public/, App.js renombrado a app.js y config.json movido a backend/app/.
+- Se han configurado los permisos de seguridad correctamente para deploy.sh, server.js y README.md.
+- Se ha simulado un error eliminando frontend/src/components/ y se ha recuperado correctamente desde el backup.
+- Se ha limpiado el proyecto eliminando archivos innecesarios.
+
+### Estado final del proyecto
+
+El proyecto queda con una estructura limpia, organizada y con los permisos de seguridad correctamente aplicados, lista para ser utilizada por el equipo de desarrollo.
