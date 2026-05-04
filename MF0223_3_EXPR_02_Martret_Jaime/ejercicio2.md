@@ -177,7 +177,7 @@ cp -r dev_environment/backup/frontend/src/components/ dev_environment/frontend/s
 ```bash
 rm -r dev_environment/temp/
 ```
-> ⚠️ Nota: la carpeta `temp/` no fue creada en pasos anteriores, por lo que este comando devolvería un error. Se documenta igualmente ya que forma parte del enunciado.
+> ⚠️ Nota: la carpeta `temp/` no fue creada en pasos anteriores, por lo que este comando devolvería un error. 
 
 **2.** Eliminar `server_backup.js`:
 
