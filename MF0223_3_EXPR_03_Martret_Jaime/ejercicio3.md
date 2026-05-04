@@ -106,7 +106,7 @@ El script ejecutado lanzó 3 procesos `yes` en background (con `&`) que generan 
 
 **¿Qué tipo de procesos están afectando al sistema?**
 
-- **Procesos zombie de CPU:** 3 instancias del comando `yes` (PIDs 17, 18, 19) en estado de ejecución continua que saturan la CPU.
+- **Procesos en ejecución que saturan la CPU:** 3 instancias del comando `yes` (PIDs 17, 18, 19)
 - **Archivos basura en disco:** archivos temporales (`mem_test1`, `mem_test2`, `test_disk/`) que ocupan ~750 MB innecesariamente en `/tmp/`.
 
 ---

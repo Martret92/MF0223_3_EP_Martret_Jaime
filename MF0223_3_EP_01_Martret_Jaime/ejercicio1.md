@@ -62,6 +62,8 @@ services:
     networks:
       - net_dev_XX
     tty: true
+    stdin_open: true
+    command: tail -f /dev/null
 
 volumes:
   datos_devXX:
@@ -86,8 +88,8 @@ networks:
 * **Eliminación de puertos innecesarios:**
   El contenedor no expone servicios, por lo que el mapeo de puertos no es necesario.
 
-* **Uso de `tty: true`:**
-  Permite mantener el contenedor activo asignándole una terminal interactiva, evitando su finalización automática.
+* **Uso de `tty: true`, `stdin_open: true` y `command: tail -f /dev/null`:**
+  Permiten mantener el contenedor activo asignándole una terminal interactiva y un proceso en primer plano, evitando su finalización automática.
 
 ---
 
